@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class SignUp(models.Model):
 	email = models.EmailField();
-	full_name = models.CharField(max_length=50, null=True, blank=True);
+	full_name = models.CharField(max_length=50, null=True, blank=False);
 	# auto_now_add: Save timestamp upon creation
 	# auto_now: Save when it is saved
 	timestamp = models.DateTimeField(auto_now_add=True, auto_now=False);
