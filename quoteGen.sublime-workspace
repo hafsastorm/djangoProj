@@ -87,6 +87,65 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/newsletter/views.py",
+			"settings":
+			{
+				"buffer_size": 116,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/quotes/views.py",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/quoteGen/settings.py",
+			"settings":
+			{
+				"buffer_size": 2858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/home.html",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/newsletter/models.py",
+			"settings":
+			{
+				"buffer_size": 475,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/newsletter/admin.py",
+			"settings":
+			{
+				"buffer_size": 287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "from django.db import models\n\n# Create your models here.\nclass Quote(models.Model):\n	author =  models.CharField(max_length=50, blank=False, null=False)\n	book = models.CharField(max_length=50, blank=True, null=True)\n	passage = models.CharField(max_length=500, blank=False, null=False, primary_key=True)\n\n	def __unicode__(self): # Python 3 uses __str__\n		return self.passage",
+			"file": "src/quotes/models.py",
+			"file_size": 372,
+			"file_write_time": 130877996028041379,
+			"settings":
+			{
+				"buffer_size": 372,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -140,13 +199,17 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Haffy/Desktop/quoteGen/src/quotes/admin.py",
+		"/C/Users/Haffy/Desktop/quoteGen/src/quotes/models.py",
+		"/C/Users/Haffy/Desktop/Interactive Resume/index.html",
+		"/C/Users/Haffy/Desktop/quoteGen/src/quotes/templates/home.html",
+		"/C/Users/Haffy/Desktop/quoteGen/src/quoteGen/urls.py",
 		"/C/Users/Haffy/Desktop/tut.py",
 		"/C/Users/Haffy/Desktop/Interactive Resume/Stopwatch.py",
 		"/C/Users/Haffy/Desktop/Interactive Resume/RPSLS.py",
 		"/C/Users/Haffy/Desktop/Interactive Resume/Guess the Number.py",
 		"/C/Users/Haffy/Desktop/Interactive Resume/js/script.js",
 		"/C/Users/Haffy/Desktop/Interactive Resume/css/style.css",
-		"/C/Users/Haffy/Desktop/Interactive Resume/index.html",
 		"/C/Program Files (x86)/Git/doc/git/html/git.html",
 		"/C/Users/Haffy/Desktop/website.css",
 		"/C/Users/Haffy/Desktop/MyTRS/Orders Form/angular_tradeEconomics-rollover.html",
@@ -352,8 +415,193 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/newsletter/views.py",
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/quotes/views.py",
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/quoteGen/settings.py",
+					"settings":
+					{
+						"buffer_size": 2858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1964,
+								1964
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 199.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/home.html",
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/newsletter/models.py",
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/newsletter/admin.py",
+					"settings":
+					{
+						"buffer_size": 287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								287,
+								287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/quotes/models.py",
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -363,7 +611,7 @@
 	},
 	"input":
 	{
-		"height": 43.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -417,6 +665,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 193.0,
 	"status_bar_visible": true
 }
